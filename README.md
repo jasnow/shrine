@@ -605,15 +605,6 @@ system].
 
 ## How to Contribute
 
-### Steps to set up dev environment
-
- 1. Set RUBY_VERSION env variable.
- 2. Set Ruby version and gemset using rvm, rbenv, etc. 
- 3. Install ruby-filemagic. Instructions at: https://github.com/blackwinter/ruby-filemagic
- 4. Run "bundle"
- 5. Run "rake"
- 6. More details at [CONTRIBUTING].
-
 ## License
 
 The gem is available as open source under the terms of the [MIT License].
