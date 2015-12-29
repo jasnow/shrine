@@ -4,7 +4,3 @@ pkg/
 .sass-cache
 www/build
 coverage/
-
-# Added these to not force others to use them.
-.rvmrc
-.overcommit.yml
