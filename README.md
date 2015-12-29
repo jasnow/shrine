@@ -603,13 +603,10 @@ idea of "backends" (here named "storages"), attachment interface, and direct
 uploads. From Roda it borrows the implementation of an extensible [plugin
 system].
 
-## How to Contribute
-
 ## License
 
 The gem is available as open source under the terms of the [MIT License].
 
-[CONTRIBUTING]: https://github.com/janko-m/shrine/blob/master/CONTRIBUTING.md
 [Contributor Covenant]: http://contributor-covenant.org
 [image_processing]: https://github.com/janko-m/image_processing
 [fastimage]: https://github.com/sdsykes/fastimage
