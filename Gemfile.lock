@@ -34,7 +34,7 @@ GEM
       safe_yaml (~> 1.0.0)
     docile (1.1.5)
     dotenv (2.1.0)
-    down (1.0.5)
+    down (1.1.0)
     fastimage (1.8.1)
       addressable (~> 2.3, >= 2.3.5)
     hashdiff (0.2.3)
