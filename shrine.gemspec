@@ -1,3 +1,4 @@
+# coding: utf-8
 require File.expand_path("../lib/shrine/version", __FILE__)
 
 Gem::Specification.new do |gem|
@@ -32,7 +33,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "mime-types"
   gem.add_development_dependency "fastimage"
   gem.add_development_dependency "thread", "~> 0.2"
-  gem.add_development_dependency "aws-sdk", "~> 2.1.30"
+  gem.add_development_dependency "aws-sdk"
 
   unless RUBY_ENGINE == "jruby" || ENV["CI"]
     gem.add_development_dependency "ruby-filemagic", "~> 0.7"
