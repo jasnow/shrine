@@ -61,7 +61,7 @@ GEM
     rack-test_app (1.0.0)
       rack
     rake (11.1.2)
-    roda (2.12.0)
+    roda (2.13.0)
       rack
     ruby-filemagic (0.7.1)
     safe_yaml (1.0.4)
