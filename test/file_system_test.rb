@@ -89,7 +89,7 @@ describe Shrine::Storage::FileSystem do
 
       @storage.move(file, "foo")
       assert @storage.exists?("foo")
-      refute File.exists?(file.path)
+      refute File.exist?(file.path)
 
       @storage.move(uploaded_file, "bar")
       assert @storage.exists?("bar")
