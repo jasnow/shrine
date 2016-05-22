@@ -23,7 +23,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "minitest", "~> 5.8"
   gem.add_development_dependency "minitest-hooks", "~> 1.3.0"
   gem.add_development_dependency "mocha"
-  gem.add_development_dependency "vcr", "~> 2.9"
+  gem.add_development_dependency "vcr"
   gem.add_development_dependency "webmock"
   gem.add_development_dependency "rack-test_app"
   gem.add_development_dependency "dotenv"
