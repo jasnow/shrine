@@ -19,7 +19,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     addressable (2.4.0)
-    arel (7.0.0)
+    arel (7.1.0)
     aws-sdk (2.4.0)
       aws-sdk-resources (= 2.4.0)
     aws-sdk-core (2.4.0)
