@@ -9,8 +9,6 @@ ActiveRecord::Migration.class_eval do
     t.text :avatar_data
   end
 end
-# Get rid of deprecation warnings.
-ActiveRecord::Base.raise_in_transactional_callbacks = true
 
 describe "the activerecord plugin" do
   before do
