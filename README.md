@@ -607,6 +607,7 @@ system].
 
 The gem is available as open source under the terms of the [MIT License].
 
+
 [Contributor Covenant]: http://contributor-covenant.org
 [image_processing]: https://github.com/janko-m/image_processing
 [fastimage]: https://github.com/sdsykes/fastimage
