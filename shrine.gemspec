@@ -20,8 +20,8 @@ Gem::Specification.new do |gem|
   gem.add_dependency "down", ">= 1.0.5"
 
   gem.add_development_dependency "rake"
-  gem.add_development_dependency "minitest", "~> 5.8"
-  gem.add_development_dependency "minitest-hooks", "~> 1.3.0"
+  gem.add_development_dependency "minitest"
+  gem.add_development_dependency "minitest-hooks"
   gem.add_development_dependency "mocha"
   gem.add_development_dependency "vcr"
   gem.add_development_dependency "webmock"
@@ -32,11 +32,11 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "mimemagic"
   gem.add_development_dependency "mime-types"
   gem.add_development_dependency "fastimage"
-  gem.add_development_dependency "thread", "~> 0.2"
+  gem.add_development_dependency "thread"
   gem.add_development_dependency "aws-sdk"
 
   unless RUBY_ENGINE == "jruby" || ENV["CI"]
-    gem.add_development_dependency "ruby-filemagic", "~> 0.7"
+    gem.add_development_dependency "ruby-filemagic"
   end
 
   gem.add_development_dependency "sequel"
