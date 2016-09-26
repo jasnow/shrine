@@ -45,7 +45,7 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mimemagic (0.3.2)
-    minitest (5.9.0)
+    minitest (5.9.1)
     minitest-hooks (1.4.0)
     mocha (1.1.0)
       metaclass (~> 0.0.1)
