@@ -20,12 +20,12 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.4.0)
     arel (7.1.2)
-    aws-sdk (2.6.3)
-      aws-sdk-resources (= 2.6.3)
-    aws-sdk-core (2.6.3)
+    aws-sdk (2.6.5)
+      aws-sdk-resources (= 2.6.5)
+    aws-sdk-core (2.6.5)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.6.3)
-      aws-sdk-core (= 2.6.3)
+    aws-sdk-resources (2.6.5)
+      aws-sdk-core (= 2.6.5)
     coderay (1.1.1)
     concurrent-ruby (1.0.2)
     crack (0.4.3)
@@ -61,7 +61,7 @@ GEM
       rack
     ruby-filemagic (0.7.1)
     safe_yaml (1.0.4)
-    sequel (4.38.0)
+    sequel (4.39.0)
     simplecov (0.12.0)
       docile (~> 1.1.0)
       json (>= 1.8, < 3)
@@ -106,4 +106,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   1.13.1
+   1.13.2
