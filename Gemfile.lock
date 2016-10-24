@@ -20,12 +20,12 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.4.0)
     arel (7.1.4)
-    aws-sdk (2.6.9)
-      aws-sdk-resources (= 2.6.9)
-    aws-sdk-core (2.6.9)
+    aws-sdk (2.6.12)
+      aws-sdk-resources (= 2.6.12)
+    aws-sdk-core (2.6.12)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.6.9)
-      aws-sdk-core (= 2.6.9)
+    aws-sdk-resources (2.6.12)
+      aws-sdk-core (= 2.6.12)
     coderay (1.1.1)
     concurrent-ruby (1.0.2)
     crack (0.4.3)
@@ -106,4 +106,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   1.13.5
+   1.13.6
