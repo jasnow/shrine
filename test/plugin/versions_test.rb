@@ -74,7 +74,7 @@ describe "the versions plugin" do
     end
 
     it "returns nil when a attachment doesn't exist" do
-      assert_equal nil, @attacher.url(:thumb)
+      assert_nil @attacher.url(:thumb)
     end
 
     it "fails explicity when version isn't registered" do

@@ -24,7 +24,7 @@ describe Shrine::Attachment do
 
   describe "<name>" do
     it "gets the file" do
-      assert_equal nil, @user.avatar
+      assert_nil @user.avatar
       @user.avatar = fakeio("image")
 
       assert_equal "image", @user.avatar.read
@@ -33,7 +33,7 @@ describe Shrine::Attachment do
 
   describe "<name>_url" do
     it "returns the URL of the file" do
-      assert_equal nil, @user.avatar_url
+      assert_nil @user.avatar_url
       @user.avatar = fakeio("image")
 
       refute_empty @user.avatar_url

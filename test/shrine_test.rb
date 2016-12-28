@@ -270,7 +270,7 @@ describe Shrine do
       assert_equal "Gemfile", metadata["filename"]
 
       metadata = @uploader.extract_metadata(fakeio)
-      assert_equal nil, metadata.fetch("filename")
+      assert_nil metadata.fetch("filename")
     end
 
     it "extracts the filesize" do
@@ -284,7 +284,7 @@ describe Shrine do
       assert_equal "image/jpeg", metadata["mime_type"]
 
       metadata = @uploader.extract_metadata(fakeio)
-      assert_equal nil, metadata.fetch("mime_type")
+      assert_nil metadata.fetch("mime_type")
     end
 
     it "successfully extracts metadata from another UploadedFile" do

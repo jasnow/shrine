@@ -65,7 +65,7 @@ describe "the store_dimensions plugin" do
     uploaded_file.metadata["width"] = nil
     uploaded_file.metadata.delete("height")
 
-    assert_equal nil, uploaded_file.width
-    assert_equal nil, uploaded_file.height
+    assert_nil uploaded_file.width
+    assert_nil uploaded_file.height
   end
 end

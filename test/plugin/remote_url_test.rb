@@ -26,7 +26,7 @@ describe "the remote_url plugin" do
 
   it "keeps the remote url value if uploading doesn't succeed" do
     @user.avatar_remote_url = image_url
-    assert_equal nil, @user.avatar_remote_url
+    assert_nil @user.avatar_remote_url
 
     @user.avatar_remote_url = "foo"
     assert_equal "foo", @user.avatar_remote_url
@@ -35,15 +35,15 @@ describe "the remote_url plugin" do
   it "ignores empty urls" do
     @user.avatar_remote_url = ""
 
-    assert_equal nil, @user.avatar_remote_url
-    assert_equal nil, @user.avatar
+    assert_nil @user.avatar_remote_url
+    assert_nil @user.avatar
   end
 
   it "rescues download errors" do
     @user.avatar_remote_url = invalid_url
 
     assert_equal invalid_url, @user.avatar_remote_url
-    assert_equal nil, @user.avatar
+    assert_nil @user.avatar
   end
 
   it "adds download errors as validation errors" do
@@ -58,7 +58,7 @@ describe "the remote_url plugin" do
     @attacher.assign(fakeio)
     @attacher.record.avatar_remote_url = invalid_url
 
-    refute_equal nil, @attacher.record.avatar
+    refute_nil @attacher.record.avatar
   end
 
   it "accepts error message as a block" do

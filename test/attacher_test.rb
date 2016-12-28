@@ -43,7 +43,7 @@ describe Shrine::Attacher do
       @attacher.assign(fakeio)
       @attacher.assign(nil)
 
-      assert_equal nil, @attacher.get
+      assert_nil @attacher.get
     end
 
     it "does nothing if an empty string is passed in" do
@@ -57,7 +57,7 @@ describe Shrine::Attacher do
       stored_file = @attacher.store.upload(fakeio)
       @attacher.assign(stored_file.to_json)
 
-      assert_equal nil, @attacher.get
+      assert_nil @attacher.get
     end
   end
 
@@ -79,8 +79,8 @@ describe Shrine::Attacher do
       @attacher.assign(fakeio)
       @attacher.set(nil)
 
-      assert_equal nil, @attacher.get
-      assert_equal nil, @attacher.record.avatar_data
+      assert_nil @attacher.get
+      assert_nil @attacher.record.avatar_data
     end
 
     it "doesn't schedule for replacing if attachment didn't change" do
@@ -114,10 +114,10 @@ describe Shrine::Attacher do
 
     it "returns nil when column is blank" do
       @attacher.record.avatar_data = nil
-      assert_equal nil, @attacher.get
+      assert_nil @attacher.get
 
       @attacher.record.avatar_data = ""
-      assert_equal nil, @attacher.get
+      assert_nil @attacher.get
     end
   end
 
@@ -234,7 +234,7 @@ describe Shrine::Attacher do
     end
 
     it "calls #default_url when attachment is missing" do
-      assert_equal nil, @attacher.url
+      assert_nil @attacher.url
       @attacher.shrine_class.plugin :default_url do |context|
         "#{context[:name]}_default"
       end

@@ -11,7 +11,7 @@ describe "the restore_cached plugin" do
 
     @attacher.assign(cached_file.to_json)
 
-    assert_equal nil, @attacher.get
+    assert_nil @attacher.get
   end
 
   it "checks that the file exists only if it's cached" do

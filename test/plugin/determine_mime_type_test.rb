@@ -64,14 +64,14 @@ describe "the determine_mime_type plugin" do
       @uploader = uploader(:mime_types)
       uploaded_file = @uploader.upload(fakeio(filename: "file.foo"))
 
-      assert_equal nil, uploaded_file.mime_type
+      assert_nil uploaded_file.mime_type
     end
 
     it "returns nil when input is not a file" do
       @uploader = uploader(:mime_types)
       uploaded_file = @uploader.upload(fakeio)
 
-      assert_equal nil, uploaded_file.mime_type
+      assert_nil uploaded_file.mime_type
     end
   end
 

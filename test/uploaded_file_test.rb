@@ -38,10 +38,10 @@ describe Shrine::UploadedFile do
     assert_equal "jpg", uploaded_file.extension
 
     uploaded_file = @uploader.upload(fakeio(filename: "foo"))
-    assert_equal nil, uploaded_file.extension
+    assert_nil uploaded_file.extension
 
     uploaded_file = @uploader.upload(fakeio)
-    assert_equal nil, uploaded_file.extension
+    assert_nil uploaded_file.extension
   end
 
   it "coerces the size to integer" do
