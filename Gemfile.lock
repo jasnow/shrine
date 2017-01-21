@@ -21,13 +21,13 @@ GEM
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
     arel (7.1.4)
-    aws-sdk (2.6.49)
-      aws-sdk-resources (= 2.6.49)
-    aws-sdk-core (2.6.49)
+    aws-sdk (2.7.0)
+      aws-sdk-resources (= 2.7.0)
+    aws-sdk-core (2.7.0)
       aws-sigv4 (~> 1.0)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.6.49)
-      aws-sdk-core (= 2.6.49)
+    aws-sdk-resources (2.7.0)
+      aws-sdk-core (= 2.7.0)
     aws-sigv4 (1.0.0)
     coderay (1.1.1)
     concurrent-ruby (1.0.4)
@@ -61,7 +61,7 @@ GEM
     rack-test_app (1.0.0)
       rack
     rake (12.0.0)
-    roda (2.21.0)
+    roda (2.22.0)
       rack
     ruby-filemagic (0.7.1)
     safe_yaml (1.0.4)
@@ -110,4 +110,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   1.13.7
+   1.14.0
