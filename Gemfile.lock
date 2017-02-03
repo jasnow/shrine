@@ -65,7 +65,7 @@ GEM
       rack
     ruby-filemagic (0.7.1)
     safe_yaml (1.0.4)
-    sequel (4.42.1)
+    sequel (4.43.0)
     simplecov (0.13.0)
       docile (~> 1.1.0)
       json (>= 1.8, < 3)
