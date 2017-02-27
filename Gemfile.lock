@@ -30,7 +30,7 @@ GEM
       aws-sdk-core (= 2.7.15)
     aws-sigv4 (1.0.0)
     coderay (1.1.1)
-    concurrent-ruby (1.0.4)
+    concurrent-ruby (1.0.5)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
     docile (1.1.5)
