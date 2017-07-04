@@ -62,7 +62,7 @@ GEM
     rake (12.0.0)
     roda (2.27.0)
       rack
-    ruby-filemagic (0.7.1)
+    ruby-filemagic (0.7.2)
     safe_yaml (1.0.4)
     sequel (4.48.0)
     simplecov (0.14.1)
