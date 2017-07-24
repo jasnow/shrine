@@ -89,6 +89,7 @@ DEPENDENCIES
   activerecord
   aws-sdk
   dotenv
+  down (= 3.1.0)
   fastimage
   mime-types
   mimemagic
@@ -109,4 +110,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   1.15.2
+   1.15.3
